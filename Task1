@@ -1,0 +1,19 @@
+/**/LED blink with Arduino
+int led1=7;
+
+void setup()
+ {  
+//pinMode (pin,mode);
+  pinMode(7,OUTPUT);
+
+}
+
+void loop() 
+{
+  
+digitalWrite(led1,HIGH);//turn LED on (5V)
+delay(1000);
+digitalWrite(led1,LOW);//turn LED off (0v)
+delay(1000);
+
+}
